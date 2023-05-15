@@ -390,5 +390,35 @@
       "${1}<sup>${0}"
     ],
     "description": "Create a superscript."
+  },
+    "Tikz Circuit": {
+    "prefix": "circuitikz",
+    "body": [
+      "```tikz",
+      "\\usepackage{circuitikz}",
+      "\\begin{document}",
+      "\\begin{circuitikz}",
+      "${1}",
+      "\\end{circuitikz}",
+      "\\end{document}",
+      "```",
+      "${0}"
+    ],
+    "description": "Create a Tikz circuit."
+  },
+    "Tikz Chemistry": {
+    "prefix": "chemtikz",
+    "body": [
+      "```tikz",
+      "\\usepackage{mhchem}",
+      "\\begin{document}",
+      "$$",
+      "${1}",
+      "$$",
+      "\\end{document}",
+      "```",
+      "${0}"
+    ],
+    "description": "Create a Chemical equation/diagram."
   }
 }
