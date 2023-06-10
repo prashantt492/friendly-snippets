@@ -14,11 +14,11 @@
         "body": "^{${1:${TM_SELECTED_TEXT}}}",
         "description": "superscript"
     },
-    "etc": {
-        "prefix": "...",
-        "body": "\\dots",
-        "description": "\\dots"
-    },
+
+
+
+
+
     "cdot": {
         "prefix": "@.",
         "body": "\\cdot",
