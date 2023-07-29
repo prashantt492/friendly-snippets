@@ -22,11 +22,19 @@
             },
             {
                 "language": "c",
-                "path": "./snippets/c.json"
+                "path": "./snippets/c/c.json"
+            },
+            {
+                "language": "cdoc",
+                "path": "./snippets/c/cdoc.json"
             },
             {
                 "language": "cpp",
-                "path": "./snippets/cpp.json"
+                "path": "./snippets/cpp/cpp.json"
+            },
+            {
+                "language": "cppdoc",
+                "path": "./snippets/cpp/cppdoc.json"
             },
             {
                 "language": ["csharp", "cs"],
@@ -166,7 +174,11 @@
             },
             {
                 "language": ["shellscript", "shell", "sh", "zsh"],
-                "path": "./snippets/shell.json"
+                "path": "./snippets/shell/shell.json"
+            },
+            {
+                "language": "shelldoc",
+                "path": "./snippets/shell/shelldoc.json"
             },
             {
                 "language": ["markdown", "rmd"],
@@ -366,7 +378,11 @@
             },
             {
                 "language": "kotlin",
-                "path": "./snippets/kotlin.json"
+                "path": "./snippets/kotlin/kotlin.json"
+            },
+            {
+                "language": "kdoc",
+                "path": "./snippets/kotlin/kdoc.json"
             },
             {
                 "language": ["plaintex", "tex"],
@@ -463,6 +479,10 @@
             {
                 "language": "nu",
                 "path": "./snippets/nushell.json"
+            },
+            {
+                "language": "reason",
+                "path": "./snippets/reason.json"
             }
         ]
     }

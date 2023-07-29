@@ -15,7 +15,7 @@
             " * ${7:Write me later}",
             " */"
         ],
-        "description": "A PHP comment block for functions, including description, param, return, and example."
+        "description": "A C++ comment block for functions, including description, param, return, and example."
     },
     "comment_simple": {
         "prefix": "/*",
@@ -26,7 +26,7 @@
             " * ${2:Description.}$0",
             " */"
         ],
-        "description": "A simple PHP comment block for classes, including short summary, and details. Useful when you prefer to add the other documentation tags manually."
+        "description": "A simple C++ comment block for classes, including short summary, and details. Useful when you prefer to add the other documentation tags manually."
     },
     "@param": {
         "prefix": "@param",
@@ -38,14 +38,14 @@
     "@return": {
         "prefix": "@return",
         "body": [
-            "@return ${3:Type and description of the returned value.}$0"
+            "@return ${1:Type and description of the returned value.}$0"
         ],
         "description": "Type and description of the returned value."
     },
     "@example": {
         "prefix": "@example",
         "body": [
-            "* @example",
+            "@example",
             "* // ${1:Description of my example.}$0",
             "* ${2:Write me later}"
         ],
@@ -66,5 +66,3 @@
         "description": "Indicates the exceptions that can be thrown by a function. This tag is a synonym of @throws."
     }
 }
-
-
