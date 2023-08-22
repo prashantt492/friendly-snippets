@@ -180,26 +180,26 @@
         "body": ["${1:page}~\\pageref{$2}$0"],
         "description": "Page"
     },
-    "Paragraph": {
-        "prefix": "par",
-        "body": [
-            "\\paragraph{${1:paragraph name}} % (fold)",
-            "\\label{par:${1/([a-zA-Z]+)|([^a-zA-Z]+)/${1:/downcase}${2:+_}/g}}",
-            "${0:$TM_SELECTED_TEXT}",
-            "% paragraph $1 (end)"
-        ],
-        "description": "Paragraph"
-    },
-    "Part": {
-        "prefix": "part",
-        "body": [
-            "\\part{${1:part name}} % (fold)",
-            "\\label{prt:${1/([a-zA-Z]+)|([^a-zA-Z]+)/${1:/downcase}${2:+_}/g}}",
-            "${0:$TM_SELECTED_TEXT}",
-            "% part $1 (end)"
-        ],
-        "description": "Part"
-    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "Region Start": {
         "prefix": "#region",
         "body": ["%#Region $0"],
